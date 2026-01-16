@@ -10,9 +10,27 @@ function App() {
   function handleClick(){
     setCount(count+1);
   }
+//create staste 
+//manage this.state
+//change state
+// sync state in all child
 
+
+const [name, setName]= useState('');
   return (
-    <>
+    <div>
+   <UserCart name={name} setName={setName}></UserCart>
+
+   <p> I AM INSIDE PARENT component and value of name is: {name}</p>
+
+
+
+
+
+
+
+
+{/* usestate */}
  {/* <Counter></Counter> */}
  
 {/* <div>
@@ -35,7 +53,7 @@ function App() {
 
 
 
-    </>
+    </div>
   )
 }
 
