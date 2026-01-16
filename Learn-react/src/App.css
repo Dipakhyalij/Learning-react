@@ -1,0 +1,23 @@
+#container{
+  display: flex;
+  width: 600px;
+  height: 300px;
+  font-size: 24px;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .component {
+    width: 90%;
+    height: auto;
+    font-size: 18px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .component {
+    width: 100%;
+    font-size: 16px;
+  }
+}
